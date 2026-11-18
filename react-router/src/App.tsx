@@ -30,7 +30,6 @@ function CarProducts() {
       <h2>Cars</h2>
       <ul>
         <li>Audi</li>
-        <li>Mercedz</li>
         <li>BMW</li>
         <li>Volvo</li>
       </ul>
