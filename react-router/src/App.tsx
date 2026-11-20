@@ -118,6 +118,7 @@ export function App() {
               <Route path=":firstname" element={<Info />} />
             </Route>
             </Route>
+        <Route path="*" element={<h1>404 Page Not Found</h1>} />
       </Routes>
     </BrowserRouter>
   );
