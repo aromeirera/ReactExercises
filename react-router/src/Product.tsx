@@ -102,6 +102,7 @@ export default function Product() {
         <Route path="/products/:id" element={<ProductDetail />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/users/:userId/posts/:postId" element={<UserPost />} />
+        <Route path="*" element={<h1>404 Page Not Found</h1>}/>
       </Routes>
     </BrowserRouter>
   );
